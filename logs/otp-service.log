@@ -1,0 +1,324 @@
+16:43:35 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:43:43 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:45:55 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:46:08 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:47:21 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:49:57 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:49:59 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:50:26 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.login(UserService.java:31)
+	at com.otp.Api.LoginHandler.handle(LoginHandler.java:26)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:50:33 [HTTP-Dispatcher] ERROR com.otp.Util.DatabaseConnection - Failed to connect to database
+org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.otp.Util.DatabaseConnection.getConnection(DatabaseConnection.java:22)
+	at com.otp.Dao.UserDAO.findByLogin(UserDAO.java:37)
+	at com.otp.Service.UserService.register(UserService.java:13)
+	at com.otp.Api.RegisterHandler.handle(RegisterHandler.java:27)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:923)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:899)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:205)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:618)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:583)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:52:55 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+16:52:55 [HTTP-Dispatcher] WARN  com.otp.Dao.UserDAO - User not found: admin
+16:52:55 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+16:52:55 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+16:52:55 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User created: admin
+16:53:44 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+16:53:44 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: admin
+19:19:46 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:19:46 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: admin
+19:25:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:25:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:25:21 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:25:21 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: admin
+19:26:06 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:06 [HTTP-Dispatcher] WARN  com.otp.Dao.UserDAO - User not found: admin2
+19:26:06 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:26:28 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:28 [HTTP-Dispatcher] WARN  com.otp.Dao.UserDAO - User not found: user1
+19:26:28 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:28 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User created: user1
+19:26:45 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:26:45 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: user1
+19:27:01 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:27:01 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - Found 1 users
+19:27:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:27:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:28:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:28:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:29:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:29:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:30:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:30:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:31:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:31:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:32:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:32:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:33:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:33:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:34:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:34:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:35:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:35:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:36:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:36:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:37:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:37:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:38:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:38:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:39:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:39:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:40:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:40:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:41:14 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:41:14 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:42:18 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:42:18 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:43:18 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:43:18 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:44:18 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:44:18 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:45:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:45:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:45:53 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:45:53 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: user1
+19:46:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:46:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:47:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:47:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:48:42 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:48:42 [HTTP-Dispatcher] INFO  com.otp.Dao.UserDAO - User found: user1
+19:48:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:48:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:48:50 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:48:50 [HTTP-Dispatcher] INFO  com.otp.Dao.OTPConfigDAO - Config loaded: length=6, lifetime=300s
+19:48:50 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:48:50 [HTTP-Dispatcher] INFO  com.otp.Dao.OTPCodeDAO - OTP code created for user 1: 555119
+19:49:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:49:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:49:47 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:49:47 [HTTP-Dispatcher] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:49:47 [HTTP-Dispatcher] INFO  com.otp.Dao.OTPCodeDAO - OTP code 1 status updated to: USED
+19:50:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:50:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:51:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:51:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:52:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:52:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:53:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:53:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:54:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:54:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:55:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:55:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:56:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:56:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
+19:57:42 [pool-1-thread-1] INFO  com.otp.Util.DatabaseConnection - Database connection established
+19:57:42 [pool-1-thread-1] INFO  com.otp.Dao.OTPCodeDAO - Marked 0 OTP codes as EXPIRED
